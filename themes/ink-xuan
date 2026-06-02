@@ -1,0 +1,24 @@
+# 水墨·宣纸（亮）
+background = f4eee1
+foreground = 33302a
+cursor-color = a83c30
+cursor-text = f4eee1
+selection-background = ddd4c0
+selection-foreground = 33302a
+# 0-7  正色 / 8-15 亮色
+palette = 0=#33302a
+palette = 1=#a83c30
+palette = 2=#5e7e54
+palette = 3=#9c6b34
+palette = 4=#3a5a78
+palette = 5=#7a5a7e
+palette = 6=#4f857a
+palette = 7=#6f685c
+palette = 8=#5b554a
+palette = 9=#bd4c3c
+palette = 10=#6f9162
+palette = 11=#b5853a
+palette = 12=#48708f
+palette = 13=#8a6a8e
+palette = 14=#5d958c
+palette = 15=#3f3a32

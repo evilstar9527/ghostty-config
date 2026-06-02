@@ -1,0 +1,23 @@
+# 水墨·泼墨（暗）
+background = 191a17
+foreground = d6cfbf
+cursor-color = c25b48
+cursor-text = 191a17
+selection-background = 313a3e
+selection-foreground = e8e2d4
+palette = 0=#2a2b27
+palette = 1=#b85547
+palette = 2=#7d9468
+palette = 3=#c39a52
+palette = 4=#6f93a8
+palette = 5=#9b7ba0
+palette = 6=#79a89c
+palette = 7=#c2bba9
+palette = 8=#4b4c45
+palette = 9=#c96a59
+palette = 10=#90a87b
+palette = 11=#d4ab63
+palette = 12=#84a6bb
+palette = 13=#b08fb4
+palette = 14=#8fbcb0
+palette = 15=#e8e2d4

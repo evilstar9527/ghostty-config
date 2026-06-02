@@ -1,0 +1,43 @@
+theme = ink-xuan
+# 强制最小对比度，Ghostty 会自动调整看不清的颜色(浓墨山影上文字靠它兜底)
+minimum-contrast = 1.5
+# 放了山水画面后,提高不透明度让画面更实(0.88→0.95)
+background-opacity = 0.95
+background-blur = 20
+# 水墨山水背景图(用户提供的山水意画)
+background-image = /Users/jishihe/.config/ghostty/backgrounds/shanshui.png
+background-image-fit = cover
+background-image-position = center
+# 画面较浓,淡化让文字可读(可按口味 0.2 更淡 / 0.6 更艳)
+background-image-opacity = 0.15
+background-image-repeat = false
+macos-titlebar-style = tabs
+unfocused-split-opacity = 0.9
+
+font-family = "LXGW WenKai Mono"
+font-size = 14
+font-thicken = true
+# 粗体不换色、只加重，更含蓄
+bold-is-bright = false
+
+font-feature = calt
+font-feature = liga
+
+# 绑定 Cmd + ` (反引号) 为全局呼出快捷键
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-size = 50%
+quick-terminal-autohide = true
+
+# Avoid restoring a previous window alongside a new external-open request.
+window-save-state = never
+window-inherit-working-directory = true
+window-inherit-font-size = true
+
+window-padding-x = 12
+window-padding-y = 12
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+cursor-style = block
+# 光标不闪,更静
+cursor-style-blink = false
