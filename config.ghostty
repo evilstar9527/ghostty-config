@@ -1,16 +1,10 @@
 theme = ink-xuan
+#theme = ink-splash
 # 强制最小对比度，Ghostty 会自动调整看不清的颜色(浓墨山影上文字靠它兜底)
 minimum-contrast = 1.5
-# 放了山水画面后,提高不透明度让画面更实(0.88→0.95)
-background-opacity = 0.95
+# 纯色半透明 + 模糊(已去掉背景图)
+background-opacity = 0.88
 background-blur = 20
-# 水墨山水背景图(用户提供的山水意画)
-background-image = /Users/jishihe/.config/ghostty/backgrounds/shanshui.png
-background-image-fit = cover
-background-image-position = center
-# 画面较浓,淡化让文字可读(可按口味 0.2 更淡 / 0.6 更艳)
-background-image-opacity = 0.15
-background-image-repeat = false
 macos-titlebar-style = tabs
 unfocused-split-opacity = 0.9
 
