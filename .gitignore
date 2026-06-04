@@ -1,1 +1,3 @@
 .DS_Store
+# 背景图由 backgrounds/gen_ink_shanshui.py 生成,体积大且可复现,不纳入版本控制
+backgrounds/*.png

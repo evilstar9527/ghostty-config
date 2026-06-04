@@ -5,9 +5,10 @@
 ## 内容
 
 ```
-config.ghostty       # 主配置(macOS 放到 Application Support)
-themes/ink-xuan      # 宣纸亮色主题(墨/朱砂/赭石/花青等国画颜料色)
-themes/ink-splash    # 泼墨暗色主题
+config.ghostty                  # 主配置(macOS 放到 Application Support)
+themes/ink-xuan                 # 宣纸亮色主题(墨/朱砂/赭石/花青等国画颜料色)
+themes/ink-splash               # 泼墨暗色主题
+backgrounds/gen_ink_shanshui.py # 可选:生成水墨山水背景图的脚本(当前配置默认不用背景图)
 ```
 
 ## 特性
@@ -47,3 +48,17 @@ cp config.ghostty "$HOME/Library/Application Support/com.mitchellh.ghostty/confi
 
 - `minimum-contrast`：文字可读性兜底（当前 1.5）。
 - `background-opacity` / `background-blur`：半透明与模糊程度。
+
+## 可选：水墨山水背景图
+
+当前配置默认为纯色半透明，不用背景图。如想启用：
+
+```bash
+# 生成背景图(需 Pillow:pip install pillow)
+python3 backgrounds/gen_ink_shanshui.py   # 输出到 ~/.config/ghostty/backgrounds/ink-shanshui.png
+
+# 在 config.ghostty 中加一行
+background-image = ~/.config/ghostty/backgrounds/ink-shanshui.png
+```
+
+> 生成的 PNG 体积较大且可随时重建，已在 `.gitignore` 中排除,不纳入版本控制。
