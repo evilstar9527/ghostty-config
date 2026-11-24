@@ -1,18 +1,14 @@
-theme = ink-xuan
-#theme = ink-splash
-# 强制最小对比度，Ghostty 会自动调整看不清的颜色(浓墨山影上文字靠它兜底)
-minimum-contrast = 1.5
-# 纯色半透明 + 模糊(已去掉背景图)
+theme = Catppuccin Latte
+# 强制最小对比度，Ghostty 会自动调整看不清的颜色
+minimum-contrast = 1.3
 background-opacity = 0.88
 background-blur = 20
 macos-titlebar-style = tabs
 unfocused-split-opacity = 0.9
 
-font-family = "LXGW WenKai Mono"
+font-family = "JetBrains Mono"
 font-size = 14
 font-thicken = true
-# 粗体不换色、只加重，更含蓄
-bold-is-bright = false
 
 font-feature = calt
 font-feature = liga
@@ -23,15 +19,12 @@ quick-terminal-position = top
 quick-terminal-size = 50%
 quick-terminal-autohide = true
 
-# Avoid restoring a previous window alongside a new external-open request.
-window-save-state = never
+window-save-state = always
 window-inherit-working-directory = true
 window-inherit-font-size = true
 
-window-padding-x = 12
-window-padding-y = 12
+window-padding-x = 4
+window-padding-y = 4
 copy-on-select = clipboard
 mouse-hide-while-typing = true
 cursor-style = block
-# 光标不闪,更静
-cursor-style-blink = false
